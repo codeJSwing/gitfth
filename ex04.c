@@ -10,6 +10,9 @@ int main(){
 	for(int i = 0; i < totalTerm; ++i){
 		if(t1 % 2 == 0){
 			sum += t1;
+			t1 = 0;
+		} else {
+			t1 = 1;
 		}
 		nextTerm = t1 + t2;
 		t1 = t2;
